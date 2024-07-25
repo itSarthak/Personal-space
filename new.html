@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        display: grid;
+        grid-template-columns: 100px 1fr;
+        grid-template-rows: 100px 1fr;
+        height: 100vh;
+      }
+      .sidebar {
+        background-color: aqua;
+        grid-row: 1 / -1;
+      }
+      .header {
+        /* grid-column: 2 / -1;
+        grid-column: 1; */
+        background-color: beige;
+      }
+      .main {
+        grid-column: 2;
+        background-color: yellowgreen;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="sidebar">Sidebar</div>
+    <div class="header">Header</div>
+    <div class="main">Main Content</div>
+  </body>
+</html>

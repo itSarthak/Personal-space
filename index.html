@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Habit Tracker</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="sidebar-menu">
+        <img src="/profile.JPG" alt="Profile Picture" class="profile-pic" />
+        <div class="menu-item active">
+          <span class="home-screen"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="menu-btn"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"
+              />
+            </svg>
+          </span>
+        </div>
+        <div class="menu-item">
+          <span class="item-list"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="menu-btn"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 12h16.5m-16.5 3.75h16.5M3.75 19.5h16.5M5.625 4.5h12.75a1.875 1.875 0 0 1 0 3.75H5.625a1.875 1.875 0 0 1 0-3.75Z"
+              />
+            </svg>
+          </span>
+        </div>
+        <div class="menu-item">
+          <span class="calender"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="menu-btn"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M6.75 2.994v2.25m10.5-2.25v2.25m-14.252 13.5V7.491a2.25 2.25 0 0 1 2.25-2.25h13.5a2.25 2.25 0 0 1 2.25 2.25v11.251m-18 0a2.25 2.25 0 0 0 2.25 2.25h13.5a2.25 2.25 0 0 0 2.25-2.25m-18 0v-7.5a2.25 2.25 0 0 1 2.25-2.25h13.5a2.25 2.25 0 0 1 2.25 2.25v7.5m-6.75-6h2.25m-9 2.25h4.5m.002-2.25h.005v.006H12v-.006Zm-.001 4.5h.006v.006h-.006v-.005Zm-2.25.001h.005v.006H9.75v-.006Zm-2.25 0h.005v.005h-.006v-.005Zm6.75-2.247h.005v.005h-.005v-.005Zm0 2.247h.006v.006h-.006v-.006Zm2.25-2.248h.006V15H16.5v-.005Z"
+              />
+            </svg>
+          </span>
+        </div>
+        <div class="menu-item">
+          <span class="settings"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="menu-btn"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M6 13.5V3.75m0 9.75a1.5 1.5 0 0 1 0 3m0-3a1.5 1.5 0 0 0 0 3m0 3.75V16.5m12-3V3.75m0 9.75a1.5 1.5 0 0 1 0 3m0-3a1.5 1.5 0 0 0 0 3m0 3.75V16.5m-6-9V3.75m0 3.75a1.5 1.5 0 0 1 0 3m0-3a1.5 1.5 0 0 0 0 3m0 9.75V10.5"
+              />
+            </svg>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="header">
+      <div class="sidebar-top">
+        <div class="greeting">Good evening, Sarthak!</div>
+        <div class="date">11/23/2022</div>
+      </div>
+    </div>
+    <div class="main-content">
+      <div class="todo-section">
+        <div class="todo-category">
+          <span class="add-task"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="add-btn"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+              />
+            </svg>
+          </span>
+          <div class="category-header"><p class>Personal</p></div>
+
+          <ul class="todo-list">
+            <li>Call mom</li>
+            <li>Buy notebook</li>
+          </ul>
+        </div>
+        <div class="todo-category">
+          <span class="add-task"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="add-btn"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+              />
+            </svg>
+          </span>
+          <div class="category-header">Work</div>
+
+          <ul class="todo-list">
+            <li>UI design v2</li>
+            <li>Meeting at 1pm</li>
+            <li>Finish project plan</li>
+          </ul>
+        </div>
+        <div class="todo-category">
+          <span class="add-task"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="add-btn"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+              />
+            </svg>
+          </span>
+          <div class="category-header">Household</div>
+          <ul class="todo-list">
+            <li>Laundry</li>
+            <li>Grocery shopping</li>
+          </ul>
+        </div>
+        <div class="todo-category">
+          <span class="add-task"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="add-btn"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+              />
+            </svg>
+          </span>
+          <div class="category-header">Me Time</div>
+          <ul class="todo-list">
+            <li>Go for a walk</li>
+            <li>Eat good today</li>
+            <li>Yoga</li>
+            <li>Finish book</li>
+          </ul>
+        </div>
+      </div>
+      <div class="notes-section">
+        <div class="notes-header">Notes</div>
+        <div class="notes-content">
+          <p>
+            Sketchbook found at the bookstore, trying to be more creative again
+          </p>
+          <p>Webdev course starts on 11/25/2022 location -> Vienna</p>
+          <p>
+            Plan and note Photoshop workshop topics to be prepared -> what do
+            they want to learn?
+          </p>
+        </div>
+      </div>
+      <div class="overview-section">
+        <div class="overview-header">Overview</div>
+        <div class="overview-content">
+          <div class="tasks-done">7/11 tasks done</div>
+          <div class="category-overview">
+            <div class="category-item">
+              <span>Household</span>
+              <span>2 todos left: grocery shopping, laundry</span>
+            </div>
+            <div class="category-item">
+              <span>Me Time</span>
+              <span>2 todos left: yoga, eat good today</span>
+            </div>
+          </div>
+          <div class="statistics">
+            <div class="statistics-header">Your Statistics</div>
+            <div class="statistics-graph">
+              <!-- Placeholder for graph -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
